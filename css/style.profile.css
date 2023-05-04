@@ -1,0 +1,67 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+.profile-header {
+  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.profile-image {
+  max-width: 150px;
+}
+.prodile-info {
+  display: flex;
+  flex-direction: column;
+}
+.frofile-orders {
+  margin: 0 50px;
+  padding: 10px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.order-text {
+  color: white;
+  text-align: center;
+}
+.order {
+  padding: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.order-id {
+  display: flex;
+  gap: 10px;
+}
+.order-price{
+    grid-column: 2;
+}
+
+.status_id_1 {
+  background-color: #23f038;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.status_id_2 {
+  background-color: #f02323;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.out-btn{
+  background-color: black;
+  border: 0;
+  padding:10px 15px ;
+  margin: 15px;
+}
+.out{
+  color: white;
+text-decoration: none;
+}

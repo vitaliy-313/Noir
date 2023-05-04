@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  width: 100%;
+  font-family: "Raleway";
+}
+.navbar {
+  padding: 0px;
+  display: flex;
+  /* grid-template-rows: 4fr repeat(6, 1fr);
+  grid-template-columns: auto; */
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 25px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px 5px 20px 5px;
+  
+}
+.nav-li-a {
+  color: white;
+  text-decoration: none;
+  
+}
+.logo {
+  max-width: 93%;
+  padding: 20px;
+}
+
+.navbar > li {
+  padding: 0px;
+  padding: 0px 0px 20px 0px;
+}
+
+.nav-image-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ind-classic {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 35px;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  background-color: black;
+  text-decoration: none;
+}
+.top-3-product {
+  margin: 30px;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-upload {
+  max-width: 90%;
+  border-radius: 0 30px;
+}
+.card-title {
+  font-size: 35px;
+}
+.card-text {
+  font-size: 20px;
+}
+.aboutAs {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+}
+.aboutAsText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutAsText > * {
+  padding: 30px;
+}
+.As {
+  font-size: 35px;
+  padding-bottom: 0px;
+}
+.about {
+  font-size: 30px;
+}
+.image-coffee {
+  width: 100%;
+}
+.music-real {
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  border-radius: 15px;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.music-real > * {
+  text-align: center;
+  color: white;
+}
+.music {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  font-size: 30px;
+  gap: 10px;
+}
+.col {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 20px;
+  }
+  .navbar>li{
+    padding: 0 5px 10px 5px;
+  }
+  .top-3-product {
+    padding: 0 50px;
+  }
+  .ind-classic {
+    font-size: 30px;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  .music-real {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 300px;
+  }
+  .aboutAsText > * {
+    padding: 20px;
+  }
+  .As {
+    font-size: 25px;
+    padding-bottom: 0px;
+  }
+  .about {
+    font-size: 20px;
+  }
+  .music {
+    font-size: 25px;
+    padding: 40px;
+  }
+  
+  @media (max-width: 426px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    .navbar {
+      font-size: 15px;
+      padding: 0 0 10px 0;
+    }
+    .logo {
+      max-width: 70%;
+      padding: 0px;
+    }
+    .nav-image-img {
+      height: 0%;
+      width: 0%;
+      object-fit: cover;
+    }
+    .top-3-product {
+      padding: 0;
+    }
+    .ind-classic {
+      font-size: 25px;
+      width: 100%;
+    }
+    .card-title {
+      font-size: 15px;
+    }
+    .card-text {
+      font-size: 10px;
+    }
+    .music-real {
+      padding: 10px;
+      border-radius: 15px;
+      max-width: 300px;
+    }
+    .aboutAsText > * {
+      padding: 15px;
+    }
+    .As {
+      font-size: 20px;
+      padding-bottom: 0px;
+    }
+    .about {
+      font-size: 15px;
+    }
+    .music {
+      font-size: 15px;
+    }
+  } 
+}

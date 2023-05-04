@@ -1,0 +1,35 @@
+.navbar{
+  font-size: 20px;
+}
+.product-photo{
+    width: 100px;
+}
+table{
+    border: 1px solid black;
+  }
+  th{padding: 5px;
+  border: 1px solid black;
+  }
+  tr{
+    border: 1px solid black;
+    }
+  
+  .div-reason{
+    display: none;
+  }
+  .div-reason-visible{
+    display: contents;
+  }
+  .a-admin{
+    color: white;
+    text-decoration: none;
+  }
+.admin-logo{
+  width: 150px;
+}
+.btn{
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 8px;
+  color: white;
+}

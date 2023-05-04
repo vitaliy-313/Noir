@@ -1,0 +1,13 @@
+.text{
+    display: flex;
+    font-size: 4vw;
+    justify-content: center;
+    padding: 10px;
+}
+.delivery-desc{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    text-align: center;
+  }

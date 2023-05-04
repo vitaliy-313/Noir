@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Raleway";
+}
+.auth-image{
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form1{
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(6,30px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.auth-form2{
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(2,30px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.auth-form-inp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+label{
+    justify-self: right;
+}
+.created{
+
+color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.created-text{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-auth{
+    margin: 30px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.input-auth{
+    border-radius: 3px;
+    height: 30px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-end;
+}
+#agreement{
+
+    width: 20px;
+}
+@media (max-width: 768px){
+    .auth-image{
+        max-width: 300px;
+        display: flex;
+        margin: auto;
+    }
+    .auth-form1{
+        font-size: 15px;
+        width: 50%;
+        margin-top: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(6,30px);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .auth-form2{
+font-size: 15px;
+        width: 50%;
+        margin-top: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(2,30px);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.main{
+    padding: 20px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+padding: 20px;
+}
+.sort-add{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 20px 0;
+    gap: 20px;
+}

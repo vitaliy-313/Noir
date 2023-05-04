@@ -1,0 +1,11 @@
+.main{
+padding: 30px;
+display: flex;
+flex-direction: row;
+}
+.product-form-inp{
+    width:200px;
+}
+.btn{
+  height: 40px;
+}
